@@ -1,29 +1,3 @@
-Skip to content
-Product
-Solutions
-Open Source
-Pricing
-Search
-Sign in
-Sign up
-IcyKit
-/
-telegram-bot-for-students
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-telegram-bot-for-students/notifications.js /
-@IcyKit
-IcyKit Updated: notifications file added
-Latest commit ca64ceb on Aug 18, 2022
- History
- 1 contributor
-33 lines (31 sloc)  1.29 KB
 
 export function notifications(messages, group, stepType, bot) {
   const startDate = {
@@ -58,18 +32,4 @@ export function notifications(messages, group, stepType, bot) {
     }, 1000)
   });
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-telegram-bot-for-students/notifications.js at main · IcyKit/telegram-bot-for-students · GitHub
+

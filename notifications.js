@@ -28,6 +28,9 @@ export function notifications(messages, group, stepType, bot) {
       if (dateNow === message.goalDate) {
         bot.sendMessage(group.id, `${message.title} - ${message.link}`);
         clearInterval(intervalID);
+              if (dateNow === message.goalDate) {
+        bot.sendMessage(group.id, `${message.title} - ${message.link}`);
+        clearInterval(intervalID);
       }
     }, 1000)
   });

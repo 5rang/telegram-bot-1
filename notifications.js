@@ -6,6 +6,11 @@ export function notifications(messages, group, stepType, bot) {
     date: group.startDate.getDate(),
     hours: group.startDate.getHours(),
     minutes: group.startDate.getMinutes(),
+       year: group.startDate.getFullYear(),
+    month: group.startDate.getMonth(),
+    date: group.startDate.getDate(),
+    hours: group.startDate.getHours(),
+    minutes: group.startDate.getMinutes(),
   }
   
   if (stepType === 'minutes') {
